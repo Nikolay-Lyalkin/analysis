@@ -10,7 +10,7 @@ load_dotenv()
 
 # URL для подключения
 dsn = os.getenv(
-    "DATABASE_URL", "mysql+pymysql://root:9998441653Qq@localhost:3306/ramir_1.0"
+    "DATABASE_URL", "mysql+pymysql://root:password123@localhost:3306/coffee"
 )
 
 # Создаём асинхронный движок
